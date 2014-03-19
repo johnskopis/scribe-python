@@ -50,6 +50,7 @@ setup(name='facebook-scribe',
       author_email='tom.primozic@zemanta.com',
       description='A Python client for Facebook Scribe',
       long_description=__doc__,
-      packages=['fb303', 'scribe'],
+      packages=['fb303','fb303_scripts', 'scribe'],
+      scripts=['scripts/scribe_cat', 'scripts/scribe_ctrl'],
       install_requires=['thrift>=0.9.0'],
 )
